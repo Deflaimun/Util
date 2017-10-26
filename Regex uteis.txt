@@ -1,3 +1,6 @@
 Regex para achar códigos não-ASCII
 
 [^\x00-\x7F]+\ *(?:[^\x00-\x7F]| )*
+
+Telefone brasileiro
+^\(?[1-9]{2}\)?\s?\d{4,5}(\-|\s)?\d{4}$
